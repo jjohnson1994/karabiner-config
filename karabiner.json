@@ -31,7 +31,7 @@
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to_if_alone": [{ "key_code": "d" }],
-                                "to_if_held_down": [{ "key_code": "left_command" }],
+                                "to_if_held_down": [{ "key_code": "right_command" }],
                                 "type": "basic"
                             },
                             {
@@ -83,7 +83,6 @@
                     },
                     {
                         "description": "Remaps",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": { "key_code": "caps_lock" },
